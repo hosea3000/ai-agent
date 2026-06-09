@@ -1,0 +1,11 @@
+{
+  "name": "simple-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
