@@ -357,3 +357,7 @@ choice.message.tool_calls     // 工具调用请求列表（finish_reason 为 to
 5. **多模态** — 支持图片、文件上传等输入方式
 6. **RAG（检索增强生成）** — 让 Agent 能查询企业知识库后再回答
 7. **Agent 框架** — 了解 LangChain、AutoGPT、CrewAI 等框架的设计理念
+
+
+
+![alt text](image.png)

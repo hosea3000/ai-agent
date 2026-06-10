@@ -72,6 +72,3 @@ Skill 是 `skills/` 目录下的 Markdown 文件，包含 YAML frontmatter（`na
 | `SYSTEM_PROMPT` | `"你是一个有帮助的AI助手。"` | Agent 系统提示词 |
 | `TAVILY_API_KEY` | （无） | Tavily API Key，用于联网搜索 |
 
-
-
-![alt text](image.png)
