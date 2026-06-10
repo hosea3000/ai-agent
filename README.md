@@ -359,5 +359,18 @@ choice.message.tool_calls     // 工具调用请求列表（finish_reason 为 to
 7. **Agent 框架** — 了解 LangChain、AutoGPT、CrewAI 等框架的设计理念
 
 
+## 6. Demo 演示
+### 日常对话
 
 ![alt text](image.png)
+
+
+### 代码编写
+
+##### 代码编写
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+
+##### 效果预览
+![alt text](image-1.png)
