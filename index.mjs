@@ -214,7 +214,7 @@ const rl = createInterface({ input: process.stdin, output: process.stdout });
 const question = (prompt) => new Promise((r) => rl.question(prompt, r));
 
 async function chat(messages) {
-  console.log(`\n[发送模型] ${JSON.stringify(messages)}\n`);
+  // console.log(`\n[发送模型] ${JSON.stringify(messages)}\n`);
   const res = await fetch(API_URL, {
     method: "POST",
     headers: {
@@ -225,7 +225,7 @@ async function chat(messages) {
   });
   if (!res.ok) throw new Error(`API error: ${res.status} ${await res.text()}`);
   const data = await res.json();
-  console.log(`\n[模型回复] ${JSON.stringify(data.choices)}\n`);
+  // console.log(`\n[模型回复] ${JSON.stringify(data.choices)}\n`);
   return data;
 }
 
